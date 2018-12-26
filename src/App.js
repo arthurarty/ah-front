@@ -69,7 +69,12 @@ class App extends Component {
            "id":3,
            "name":"Baz",
            "age":"40"
-        }
+        },
+        {
+          "id":4,
+          "name":"Jack",
+          "age":"25"
+       }
      ]
     }
   }
