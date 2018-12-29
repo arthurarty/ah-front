@@ -22,7 +22,7 @@ class TableRow extends React.Component{
   }
 }
 
-const appUrl = 'http://127.0.0.1:8000/'
+varappUrl = 'http://127.0.0.1:8000/'
 
 class Button extends React.Component {
   handleClick = () => {
@@ -75,7 +75,8 @@ class App extends Component {
           "name":"Jack",
           "age":"25"
        }
-     ]
+     ], 
+     header: "This is serious"
     }
   }
   
@@ -89,6 +90,7 @@ class App extends Component {
           </tbody>
         </table>
         <Button/>
+        <h3>{this.state.header}</h3>
       </div>
     )
   }
