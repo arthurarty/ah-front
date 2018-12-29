@@ -3,3 +3,5 @@ eslint:
   enabled: true
 eslint:
   version: 6
+jshint:
+  enabled: false
